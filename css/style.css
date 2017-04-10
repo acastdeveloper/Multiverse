@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body {
+    background: #181818;
+}
+
+#logo {
+    position: absolute;
+    width: 205px;
+    height: auto;
+    left: 50%;
+    top: 25%;
+    border: 3px solid white;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 25px black;
+}
+
+.mv_red {
+    background: red;
+    position: absolute;
+    left: 198px;
+    top: 250px;
+}
+
+.mv_green {
+    background: green;
+    position: absolute;
+    left: 350px;
+    top: 140px;
+    width: 360px;
+}
+
+.mv_blue {
+    background: blue;
+    position: absolute;
+    left: 150px;
+    right: 200px;
+    top: 350px;
+}
+
+.mv_orange {
+    background: orange;
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    width: 360px;
+}
